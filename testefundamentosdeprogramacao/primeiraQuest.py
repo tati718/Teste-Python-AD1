@@ -1,3 +1,5 @@
+# AD1.1.2023.1 - Questão 1
+
 menor = "Nenhum"
 media = "Nenhuma"
 maior = "Nenhum"
@@ -29,48 +31,9 @@ print("Menor :", menor)
 print("Maior:", maior)
 print("Média:", media)
 
-'''from statistics import mean
-
-num = []
-
-while (number := input()) != '':
-    num.append(int(number))
-
-print('Menor:', min(num))
-print('Maior:', max(num))
-print('Média', mean(num))
-'''
-
-
-'''num = input()
-if num == " ":
-    print("Nenhum número foi lido - A primeira linha lida foi vazia!!")
-
-else:
- menor = num
-maior = num
-soma = num
-soma += num
-qtd = 1
-media = soma/qtd
-
-
-for x in range(0):
-    num = int(input())
-    soma += num
-if num < menor:
-    menor = num
-elif num > maior:
-    maior = num
 
 
 
-print()
-print("Menor:" , menor)
-print("Maior:" , maior)
-print("Soma:" , soma)
-print("Média: %.2f" % media)
-'''
 
 
 
